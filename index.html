@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problemas nas Escolas - Portal Educacional</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Adicione logo após a tag <body> -->
+    <div id="cookie-banner" class="cookie-banner">
+        <div class="cookie-content">
+            <p>Utilizamos cookies para melhorar sua experiência em nosso site. Ao continuar navegando, você concorda com nossa <a href="#" id="privacy-link">Política de Privacidade</a> e <a href="#" id="terms-link">Termos de Uso</a>.</p>
+            <div class="cookie-buttons">
+                <button id="accept-cookies" class="cookie-btn accept">Aceitar</button>
+                <button id="reject-cookies" class="cookie-btn reject">Rejeitar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cabeçalho -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>ESCsegura</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#problemas">Problemas</a></li>
+                <li><a href="#solucoes">Soluções</a></li>
+                <li><a href="#casos">Casos de Sucesso</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#footer" class="contact-btn">
+                    <i class="fas fa-envelope"></i>
+                    Contato
+                </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Principal -->
+    <main>
+        <section id="inicio" class="hero-section">
+            <div class="hero-slider">
+                <div class="slide active">
+                    <img src="img/Captura de tela 2025-02-14 095150.png" alt="Problemas de infraestrutura">
+                    <div class="hero-overlay"></div>
+                </div>
+                <div class="slide">
+                    <img src="img/escola2-1200x675.jpg" alt="Salas superlotadas">
+                    <div class="hero-overlay"></div>
+                </div>
+                <div class="slide">
+                    <img src="img/escolamaresias2.jpg" alt="Vandalismo escolar">
+                    <div class="hero-overlay"></div>
+                </div>
+                <div class="slide">
+                    <img src="img/mcamg_abr_10052019_9636.webp" alt="Problemas de segurança">
+                    <div class="hero-overlay"></div>
+                </div>
+                
+                <button class="slider-btn prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="slider-btn next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                
+                <div class="slider-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+            
+            <div class="hero-content">
+                <h1>Problemas nas Escolas Brasileiras</h1>
+                <p>Identificando e buscando soluções para melhorar nossa educação</p>
+                <a href="#footer" class="cta-button">
+                    <i class="fas fa-arrow-right"></i>
+                    Reportar um Problema
+                </a>
+            </div>
+        </section>
+
+        <section class="problems-section">
+            <h2>Principais Problemas</h2>
+            <div class="problems-grid">
+                <div class="problem-card">
+                    <i class="fas fa-building"></i>
+                    <h3>Infraestrutura</h3>
+                    <p>Problemas relacionados à estrutura física das escolas</p>
+                </div>
+                <div class="problem-card">
+                    <i class="fas fa-book"></i>
+                    <h3>Material Didático</h3>
+                    <p>Falta ou desatualização de materiais de ensino</p>
+                </div>
+                <div class="problem-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Superlotação</h3>
+                    <p>Salas de aula com excesso de alunos</p>
+                </div>
+                <div class="problem-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Segurança</h3>
+                    <p>Falta de sistemas de segurança e monitoramento adequados</p>
+                </div>
+                <div class="problem-card">
+                    <i class="fas fa-laptop"></i>
+                    <h3>Tecnologia</h3>
+                    <p>Ausência ou obsolescência de recursos tecnológicos</p>
+                </div>
+                <div class="problem-card">
+                    <i class="fas fa-hand-holding-heart"></i>
+                    <h3>Bullying</h3>
+                    <p>Problemas de violência e intimidação entre alunos</p>
+                </div>
+                <div class="problem-card">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>Capacitação Docente</h3>
+                    <p>Necessidade de formação continuada para professores</p>
+                </div>
+                <div class="problem-card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Merenda Escolar</h3>
+                    <p>Qualidade e disponibilidade da alimentação escolar</p>
+                </div>
+                <div class="problem-card">
+                    <i class="fas fa-bus-alt"></i>
+                    <h3>Transporte</h3>
+                    <p>Dificuldades no acesso e transporte escolar</p>
+                </div>
+                <div class="problem-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>Saúde Mental</h3>
+                    <p>Falta de suporte psicológico para alunos e professores</p>
+                </div>
+                <div class="problem-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Evasão Escolar</h3>
+                    <p>Alto índice de abandono dos estudos</p>
+                </div>
+                <div class="problem-card">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <h3>Drogas</h3>
+                    <p>Problemas com uso e tráfico de drogas no ambiente escolar</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Soluções -->
+        <section class="solutions-section">
+            <h2>Como Solucionamos os Problemas</h2>
+            <p class="section-description">Nossa abordagem para resolver os problemas reportados nas escolas</p>
+
+            <div class="solutions-steps">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <i class="fas fa-clipboard-list"></i>
+                    <h3>Recebimento da Denúncia</h3>
+                    <p>Analisamos todas as denúncias recebidas através do nosso formulário, mantendo o anonimato quando solicitado.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <i class="fas fa-search"></i>
+                    <h3>Verificação</h3>
+                    <p>Nossa equipe verifica a veracidade das informações e a gravidade do problema reportado.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <i class="fas fa-users-cog"></i>
+                    <h3>Encaminhamento</h3>
+                    <p>Direcionamos o caso para os órgãos competentes: Secretaria de Educação, Conselho Tutelar ou autoridades.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Acompanhamento</h3>
+                    <p>Monitoramos o progresso da solução e mantemos o denunciante informado sobre o andamento.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">5</div>
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Resolução</h3>
+                    <p>Garantimos que o problema seja resolvido e implementamos medidas para evitar recorrência.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">6</div>
+                    <i class="fas fa-database"></i>
+                    <h3>Documentação</h3>
+                    <p>Registramos o caso em nossa base de dados para futuras referências e estatísticas.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">7</div>
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Divulgação</h3>
+                    <p>Compartilhamos casos de sucesso para incentivar mais denúncias e mostrar a efetividade do sistema.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">8</div>
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Prevenção</h3>
+                    <p>Desenvolvemos programas preventivos baseados nos dados coletados para evitar problemas futuros.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Estatísticas -->
+        <section class="statistics-section">
+            <h2>Nosso Impacto em Números</h2>
+            <p class="section-description">Resultados alcançados através das denúncias</p>
+            
+            <div class="statistics-grid">
+                <div class="statistic-card">
+                    <div class="stat-circle">
+                        <span class="stat-number" data-target="1500">0</span>
+                        <span class="plus">+</span>
+                    </div>
+                    <h3>Denúncias Recebidas</h3>
+                    <p>Em todo o Brasil</p>
+                </div>
+
+                <div class="statistic-card">
+                    <div class="stat-circle">
+                        <span class="stat-number" data-target="85">0</span>
+                        <span class="percent">%</span>
+                    </div>
+                    <h3>Problemas Resolvidos</h3>
+                    <p>Taxa de sucesso</p>
+                </div>
+
+                <div class="statistic-card">
+                    <div class="stat-circle">
+                        <span class="stat-number" data-target="750">0</span>
+                        <span class="plus">+</span>
+                    </div>
+                    <h3>Escolas Beneficiadas</h3>
+                    <p>Em todo o país</p>
+                </div>
+
+                <div class="statistic-card">
+                    <div class="stat-circle">
+                        <span class="stat-number" data-target="250">0</span>
+                        <span class="plus">k</span>
+                    </div>
+                    <h3>Alunos Impactados</h3>
+                    <p>Diretamente</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Reportar Problemas -->
+        <section id="footer" class="report-section">
+            <h2>Reporte um Problema</h2>
+            <p class="section-description">Se você é pai, mãe, responsável ou diretor(a), utilize este formulário para reportar problemas em sua escola</p>
+            
+            <form class="report-form">
+                <div class="form-group">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="tipo-usuario">Você é:</label>
+                    <select id="tipo-usuario" name="tipo-usuario" required>
+                        <option value="">Selecione uma opção</option>
+                        <option value="pai">Pai/Mãe/Responsável</option>
+                        <option value="diretor">Diretor(a)</option>
+                        <option value="professor">Professor(a)</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="escola">Nome da Escola</label>
+                    <input type="text" id="escola" name="escola" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" name="cidade" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="categoria">Categoria do Problema</label>
+                    <select id="categoria" name="categoria" required>
+                        <option value="">Selecione uma categoria</option>
+                        <option value="infraestrutura">Infraestrutura</option>
+                        <option value="seguranca">Segurança</option>
+                        <option value="bullying">Bullying</option>
+                        <option value="drogas">Drogas</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="descricao">Descrição do Problema</label>
+                    <textarea id="descricao" name="descricao" rows="5" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="foto">Anexar Foto (opcional)</label>
+                    <input type="file" id="foto" name="foto" accept="image/*">
+                </div>
+
+                <div class="form-group form-checkbox">
+                    <input type="checkbox" id="anonimo" name="anonimo">
+                    <label for="anonimo">Manter denúncia anônima</label>
+                </div>
+
+                <button type="submit" class="submit-btn">Enviar Relatório</button>
+            </form>
+        </section>
+
+        <!-- Seção de FAQs -->
+        <section class="faq-section">
+            <h2>Perguntas Frequentes</h2>
+            <p class="section-description">Tire suas dúvidas sobre nosso sistema de denúncias</p>
+
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Como garantem o anonimato das denúncias?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Quando você opta pelo anonimato, removemos todas as informações pessoais do relatório. Apenas os detalhes do problema são encaminhados às autoridades competentes.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Quanto tempo leva para uma denúncia ser analisada?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Nossa equipe analisa todas as denúncias em até 48 horas úteis. Casos urgentes recebem prioridade e são analisados em até 24 horas.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Como acompanho o status da minha denúncia?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Após enviar a denúncia, você receberá um número de protocolo. Com ele, é possível acompanhar o status através do nosso site ou por e-mail.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Quais tipos de problemas posso denunciar?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Você pode denunciar qualquer problema relacionado à infraestrutura, segurança, bullying, drogas, merenda escolar, entre outros. Veja a lista completa na seção "Problemas".</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>As escolas são notificadas sobre as denúncias?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim, após a verificação inicial, a direção da escola é notificada sobre o problema, mantendo o anonimato do denunciante quando solicitado.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Dúvidas Adicionais -->
+        <section class="doubts-section">
+            <h2>Ainda tem Dúvidas?</h2>
+            <p class="section-description">Envie sua pergunta que responderemos em até 24 horas</p>
+
+            <form class="doubts-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nome-duvida">Nome</label>
+                        <input type="text" id="nome-duvida" name="nome-duvida" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email-duvida">E-mail</label>
+                        <input type="email" id="email-duvida" name="email-duvida" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="assunto">Assunto</label>
+                    <select id="assunto" name="assunto" required>
+                        <option value="">Selecione um assunto</option>
+                        <option value="denuncias">Sobre Denúncias</option>
+                        <option value="acompanhamento">Acompanhamento</option>
+                        <option value="anonimato">Anonimato</option>
+                        <option value="processo">Processo de Solução</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem">Sua Dúvida</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-paper-plane"></i>
+                    Enviar Dúvida
+                </button>
+            </form>
+        </section>
+
+        <!-- Seção de Casos de Sucesso -->
+        <section class="success-cases-section">
+            <h2>Casos de Sucesso</h2>
+            <p class="section-description">Conheça algumas histórias de problemas que já resolvemos</p>
+            
+            <div class="cases-grid">
+                <div class="case-card">
+                    <img src="img/46016743575_7dfb2f705e_k.jpg" alt="Reforma da Escola">
+                    <div class="case-content">
+                        <span class="case-tag">Infraestrutura</span>
+                        <h3>Reforma Completa em Escola Municipal</h3>
+                        <p>Após denúncias sobre problemas estruturais, conseguimos a reforma completa da Escola Municipal João Silva.</p>
+                        <span class="case-location">São Paulo, SP</span>
+                    </div>
+                </div>
+
+                <div class="case-card">
+                    <img src="img/instalacao-sistema-seguranca-01.jpg" alt="Segurança Escolar">
+                    <div class="case-content">
+                        <span class="case-tag">Segurança</span>
+                        <h3>Implementação de Sistema de Segurança</h3>
+                        <p>Instalação de câmeras e controle de acesso após relatos de invasões.</p>
+                        <span class="case-location">Rio de Janeiro, RJ</span>
+                    </div>
+                </div>
+
+                <div class="case-card">
+                    <img src="img/_MG_5739.jpg" alt="Combate ao Bullying">
+                    <div class="case-content">
+                        <span class="case-tag">Bullying</span>
+                        <h3>Programa Anti-Bullying</h3>
+                        <p>Desenvolvimento de programa efetivo de combate ao bullying com resultados positivos.</p>
+                        <span class="case-location">Belo Horizonte, MG</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Parceiros -->
+        <section class="partners-section">
+            <h2>Nossos Parceiros</h2>
+            <p class="section-description">Instituições que nos ajudam a fazer a diferença</p>
+            
+            <div class="partners-grid">
+                <div class="partner-logo">
+                    <img src="img/MECAssinatura.png" alt="Secretaria de Educação">
+                </div>
+                <div class="partner-logo">
+                    <img src="img/transferir.png" alt="Conselho Tutelar">
+                </div>
+                <div class="partner-logo">
+                    <img src="img/images.png" alt="Ministério Público">
+                </div>
+                <div class="partner-logo">
+                    <img src="img/images (1).png" alt="Polícia">
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Estatísticas -->
+        <section class="statistics-section">
+            <h2>Dados sobre Problemas Escolares</h2>
+            <p class="section-description">Estatísticas que mostram a realidade das escolas brasileiras</p>
+            
+            <div class="statistics-grid">
+                <div class="statistic-card">
+                    <div class="statistic-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="statistic-info">
+                        <h3>Infraestrutura</h3>
+                        <div class="statistic-number">47%</div>
+                        <p>das escolas públicas precisam de reformas estruturais</p>
+                    </div>
+                </div>
+
+                <div class="statistic-card">
+                    <div class="statistic-icon">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <div class="statistic-info">
+                        <h3>Internet</h3>
+                        <div class="statistic-number">39%</div>
+                        <p>das escolas não possuem acesso adequado à internet</p>
+                    </div>
+                </div>
+
+                <div class="statistic-card">
+                    <div class="statistic-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="statistic-info">
+                        <h3>Evasão Escolar</h3>
+                        <div class="statistic-number">28%</div>
+                        <p>dos alunos abandonam o ensino médio</p>
+                    </div>
+                </div>
+
+                <div class="statistic-card">
+                    <div class="statistic-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="statistic-info">
+                        <h3>Material Didático</h3>
+                        <div class="statistic-number">35%</div>
+                        <p>das escolas têm falta de material didático</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Depoimentos -->
+        <section class="testimonials-section">
+            <h2>Depoimentos</h2>
+            <p class="section-description">O que dizem as pessoas que já utilizaram nossa plataforma</p>
+            
+            <div class="testimonials-slider">
+                <button class="testimonial-btn prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                
+                <div class="testimonials-container">
+                    <div class="testimonial-card active">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>"Graças à denúncia que fiz, a escola do meu filho passou por uma reforma completa. O processo foi rápido e eficiente."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="img/woman-7175038_1280.jpg" alt="Maria Silva">
+                            <div class="author-info">
+                                <h4>Maria Silva</h4>
+                                <span>Mãe de Aluno</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>"Como diretor, pude ver a transformação da nossa escola após utilizar a plataforma. O suporte foi fundamental."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="img/pexels-photo-2379004.jpeg" alt="João Santos">
+                            <div class="author-info">
+                                <h4>João Santos</h4>
+                                <span>Diretor Escolar</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>"O programa anti-bullying implementado através da plataforma mudou completamente o ambiente escolar."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="img/mulher-lidiane-jones-bumble.webp" alt="Ana Oliveira">
+                            <div class="author-info">
+                                <h4>Ana Oliveira</h4>
+                                <span>Professora</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>"Conseguimos melhorar a segurança da escola após fazer a denúncia. Agora todos os alunos se sentem mais seguros."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="img/images.jpg" alt="Pedro Costa">
+                            <div class="author-info">
+                                <h4>Pedro Costa</h4>
+                                <span>Coordenador Pedagógico</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="testimonial-btn next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+
+                <div class="testimonial-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Notícias -->
+        <section class="news-section">
+            <h2>Últimas Notícias</h2>
+            <p class="section-description">Fique por dentro das últimas atualizações sobre educação</p>
+            
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="img/Sistema-de-gestao-de-investimentos-leva-a-alta-performance.jpg" alt="Investimento em Educação">
+                        <span class="news-tag">Investimentos</span>
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">15 Mar 2024</span>
+                        <h3>Governo anuncia novo pacote de investimentos para escolas públicas</h3>
+                        <p>Programa prevê reforma de mais de 1000 escolas em todo o país...</p>
+                        <a href="#" class="read-more">Ler mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="img/images.jpeg" alt="Tecnologia na Educação">
+                        <span class="news-tag">Tecnologia</span>
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">12 Mar 2024</span>
+                        <h3>Escolas recebem novos laboratórios de informática</h3>
+                        <p>Iniciativa visa melhorar o acesso à tecnologia nas escolas...</p>
+                        <a href="#" class="read-more">Ler mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-image">
+                        <img src="img/programa-de-capacitacao-1024x576.webp" alt="Capacitação de Professores">
+                        <span class="news-tag">Capacitação</span>
+                    </div>
+                    <div class="news-content">
+                        <span class="news-date">10 Mar 2024</span>
+                        <h3>Programa de capacitação para professores é ampliado</h3>
+                        <p>Mais de 5000 professores serão beneficiados com cursos...</p>
+                        <a href="#" class="read-more">Ler mais <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Seção de Contatos de Emergência -->
+        <section class="emergency-section">
+            <h2>Contatos de Emergência</h2>
+            <p class="section-description">Números importantes para situações que exigem ação imediata</p>
+            
+            <div class="emergency-grid">
+                <div class="emergency-card">
+                    <div class="emergency-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3>Polícia</h3>
+                    <p class="emergency-number">190</p>
+                    <p class="emergency-desc">Para situações de violência ou ameaça imediata</p>
+                </div>
+
+                <div class="emergency-card">
+                    <div class="emergency-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <h3>Conselho Tutelar</h3>
+                    <p class="emergency-number">125</p>
+                    <p class="emergency-desc">Casos envolvendo violação dos direitos de crianças</p>
+                </div>
+
+                <div class="emergency-card">
+                    <div class="emergency-icon">
+                        <i class="fas fa-ambulance"></i>
+                    </div>
+                    <h3>SAMU</h3>
+                    <p class="emergency-number">192</p>
+                    <p class="emergency-desc">Emergências médicas e acidentes</p>
+                </div>
+
+                <div class="emergency-card">
+                    <div class="emergency-icon">
+                        <i class="fas fa-fire-extinguisher"></i>
+                    </div>
+                    <h3>Bombeiros</h3>
+                    <p class="emergency-number">193</p>
+                    <p class="emergency-desc">Incêndios e acidentes estruturais</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer" id="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>ESCsegura</h3>
+                <p>Trabalhando por uma educação melhor e mais segura para todos.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#problemas">Problemas</a></li>
+                    <li><a href="#solucoes">Soluções</a></li>
+                    <li><a href="#footer">Contato</a></li>
+                    <li><a href="#footer" class="highlight-link">
+                        <i class="fas fa-exclamation-circle"></i> Reportar um Problema
+                    </a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <ul class="contact-info">
+                    <li><i class="fas fa-phone"></i> (11) 99573-9632</li>
+                    <li><i class="fas fa-envelope"></i> ESCsegura@gmail.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> São Paulo, SP</li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Receba atualizações sobre nosso trabalho</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Seu e-mail">
+                    <button type="submit">Inscrever</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 ESCsegura. Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Termos de Uso</a>
+                <a href="#">Cookies</a>
+            </div>
+        </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Adicione antes do seu script.js existente -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const cookieBanner = document.getElementById('cookie-banner');
+        const acceptButton = document.getElementById('accept-cookies');
+        const rejectButton = document.getElementById('reject-cookies');
+        const privacyLink = document.getElementById('privacy-link');
+        const termsLink = document.getElementById('terms-link');
+        const privacyModal = document.getElementById('privacy-modal');
+        const termsModal = document.getElementById('terms-modal');
+        const closeButtons = document.querySelectorAll('.close-modal');
+
+        // Verifica se os cookies já foram aceitos ou rejeitados
+        const cookieChoice = localStorage.getItem('cookieChoice');
+        if (!cookieChoice) {
+            cookieBanner.style.display = 'block';
+        }
+
+        // Função para aceitar cookies
+        acceptButton.addEventListener('click', function() {
+            localStorage.setItem('cookieChoice', 'accepted');
+            cookieBanner.style.display = 'none';
+        });
+
+        // Função para rejeitar cookies
+        rejectButton.addEventListener('click', function() {
+            localStorage.setItem('cookieChoice', 'rejected');
+            cookieBanner.style.display = 'none';
+        });
+
+        // Função para limpar a escolha de cookies quando a sessão terminar
+        window.addEventListener('unload', function() {
+            localStorage.removeItem('cookieChoice');
+        });
+
+        // Abrir modal de Política de Privacidade
+        privacyLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            privacyModal.style.display = 'block';
+        });
+
+        // Abrir modal de Termos de Uso
+        termsLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            termsModal.style.display = 'block';
+        });
+
+        // Fechar modais
+        closeButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                privacyModal.style.display = 'none';
+                termsModal.style.display = 'none';
+            });
+        });
+
+        // Fechar modal ao clicar fora
+        window.addEventListener('click', function(e) {
+            if (e.target == privacyModal) {
+                privacyModal.style.display = 'none';
+            }
+            if (e.target == termsModal) {
+                termsModal.style.display = 'none';
+            }
+        });
+    });
+    </script>
+
+    <script src="script.js"></script>
+    <script>
+        // Selecionando todos os links da navegação
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                // Obtém o id da seção do href do link
+                const targetId = this.getAttribute('href').substring(1);
+                
+                // Encontra a seção correspondente
+                let targetSection;
+                
+                // Mapeamento especial para seções específicas
+                switch(targetId) {
+                    case 'inicio':
+                        targetSection = document.querySelector('.hero-section');
+                        break;
+                    case 'problemas':
+                        targetSection = document.querySelector('.problems-section');
+                        break;
+                    case 'solucoes':
+                        targetSection = document.querySelector('.solutions-section');
+                        break;
+                    case 'casos':
+                        targetSection = document.querySelector('.success-cases-section');
+                        break;
+                    case 'faq':
+                        targetSection = document.querySelector('.faq-section');
+                        break;
+                    case 'footer':
+                        targetSection = document.querySelector('.footer');
+                        break;
+                    default:
+                        targetSection = document.getElementById(targetId);
+                }
+                
+                if (targetSection) {
+                    // Calcula a posição considerando a altura da barra de navegação
+                    const navHeight = document.querySelector('.navbar').offsetHeight;
+                    const targetPosition = targetSection.offsetTop - navHeight;
+                    
+                    // Scroll suave até a seção
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Destacar link ativo durante a rolagem
+        window.addEventListener('scroll', function() {
+            const sections = [
+                document.querySelector('.hero-section'),
+                document.querySelector('.problems-section'),
+                document.querySelector('.solutions-section'),
+                document.querySelector('.success-cases-section'),
+                document.querySelector('.faq-section'),
+                document.querySelector('.footer')
+            ];
+            
+            const navLinks = document.querySelectorAll('.nav-links a');
+            
+            let currentSection = '';
+            
+            sections.forEach((section, index) => {
+                if (section) {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    const navHeight = document.querySelector('.navbar').offsetHeight;
+                    
+                    if (window.pageYOffset >= (sectionTop - navHeight - 100)) {
+                        currentSection = navLinks[index].getAttribute('href').substring(1);
+                    }
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').substring(1) === currentSection) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+
+    <!-- Adicione antes do fechamento da tag </body> -->
+    <div id="privacy-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Política de Privacidade</h2>
+            <div class="modal-text">
+                <h3>1. Coleta de Informações</h3>
+                <p>Coletamos informações quando você:</p>
+                <ul>
+                    <li>Preenche formulários em nosso site</li>
+                    <li>Se inscreve em nossa newsletter</li>
+                    <li>Reporta problemas escolares</li>
+                </ul>
+
+                <h3>2. Uso das Informações</h3>
+                <p>As informações coletadas são utilizadas para:</p>
+                <ul>
+                    <li>Processar denúncias e solicitações</li>
+                    <li>Enviar atualizações sobre casos reportados</li>
+                    <li>Melhorar nossos serviços</li>
+                </ul>
+
+                <h3>3. Proteção de Dados</h3>
+                <p>Implementamos medidas de segurança para proteger suas informações pessoais.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="terms-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Termos de Uso</h2>
+            <div class="modal-text">
+                <h3>1. Aceitação dos Termos</h3>
+                <p>Ao utilizar nosso site, você concorda com estes termos de uso.</p>
+
+                <h3>2. Uso do Serviço</h3>
+                <p>Nosso serviço deve ser utilizado de forma responsável e ética.</p>
+
+                <h3>3. Responsabilidades</h3>
+                <p>O usuário é responsável por:</p>
+                <ul>
+                    <li>Fornecer informações verdadeiras</li>
+                    <li>Manter a confidencialidade de suas credenciais</li>
+                    <li>Usar o serviço de acordo com as leis aplicáveis</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
